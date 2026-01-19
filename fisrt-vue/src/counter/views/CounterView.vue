@@ -35,7 +35,7 @@ const deduct = () => {
       >{{ counter }}</span
     >
   </h1>
-  <aside class="flex justify-between gap-4 mt-2">
+  <div class="flex justify-between gap-4 mt-2">
     <button
       class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       @click="increase"
@@ -48,5 +48,5 @@ const deduct = () => {
     >
       -1
     </button>
-  </aside>
+  </div>
 </template>
